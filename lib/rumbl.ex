@@ -10,7 +10,7 @@ defmodule Rumbl do
       # Start the endpoint when the application starts
       supervisor(Rumbl.Endpoint, []),
       # Start the Ecto repository
-      ## TODO: When database is implemented, initialize ecto repo. 
+      ## TODO: When database is implemented, initialize ecto repo.
       # worker(Rumbl.Repo, []),
       # Here you could define other workers and supervisors as children
       # worker(Rumbl.Worker, [arg1, arg2, arg3]),
